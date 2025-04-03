@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import { LiaUserSolid } from "react-icons/lia";
 import logo from '../assets/logo.jpg'
 import { PiShoppingCartSimpleBold } from "react-icons/pi";
-import { dataContext } from '../pages/context';
+import { dataContext } from '../pages/Context';
 import { productsData } from '../pages/productsData';
 import { useSelector } from 'react-redux';
 

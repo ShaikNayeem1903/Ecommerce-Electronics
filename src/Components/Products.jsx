@@ -1,12 +1,10 @@
 import React, { useContext } from 'react'
 import stars from '../assets/5stars.png'
-import { productsData } from '../pages/productsData';
-import { dataContext } from '../pages/context';
 import { Link } from 'react-router-dom';
-import ProductDetails from './ProductDetails';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '../pages/cartSlice';
 import { toast } from 'react-toastify';
+import { dataContext } from '../pages/Context';
 
 function Products() {
 

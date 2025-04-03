@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { Provider } from 'react-redux'
 import { store } from './pages/store.js'
 import { ToastContainer } from 'react-toastify'
-import Context from './pages/context.jsx'
+import Context from './pages/Context.jsx'
 
 
 createRoot(document.getElementById('root')).render(

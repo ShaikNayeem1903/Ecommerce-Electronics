@@ -6,7 +6,7 @@ import { SlSocialTwitter } from "react-icons/sl";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaRegCopyright } from "react-icons/fa";
-import { dataContext } from '../pages/context';
+import { dataContext } from '../pages/Context';
 function Footer() {
     let { productTittles, filter } = useContext(dataContext)
     return (
