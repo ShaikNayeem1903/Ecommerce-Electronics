@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactUs() {
   return (
-    <div>
+    <div className='text-center'>
       <h1 className='text-black font-semibold text-2xl  mx-auto'>Contact Us</h1>
       <div className='' >
       <p className='text-black font-semibold'>+12345 678 910</p>
