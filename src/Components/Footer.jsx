@@ -12,9 +12,9 @@ function Footer() {
     return (
 
         <Link to={`/`}>
-            <footer>
+            <footer className=''>
 
-                <div className='bg-gray-900 shadow-2xl grid grid-cols-1 md:grid-cols-2 justify-around items-center py-2 relative'>
+                <div className='bg-gray-900 shadow-2xl grid grid-cols-1 md:grid-cols-2 justify-items-center py-2 relative'>
 
                     <div>
                         <h1 className='text-white text-2xl font-semibold'>Subscribe our Newsletter</h1>
@@ -26,7 +26,7 @@ function Footer() {
                             <input type="text" placeholder='Enter Your Email' className=' outline-none'  />
                         </form>
 
-                        <div className='absolute top-3 right-50 px-5 z-10 bg-slate-50 cursor-pointer hover:scale-105 ease-in transition-all'>
+                        <div className='absolute bottom-2.5  right-18 lg:top-3 lg:right-30 xl:right-50 md:right-15  px-5 z-10 bg-slate-50 cursor-pointer hover:scale-105 ease-in transition-all'>
                             <button className='cursor-pointer'>Submit Now</button>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function Footer() {
 
 
 
-                <div className='bg-blue-950 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 justify-around  items-center py-4'>
+                <div className='bg-blue-950 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 items-center justify-items-normal px-4 py-4'>
 
                     <div className=' flex flex-col gap-5'>
 
@@ -52,7 +52,7 @@ function Footer() {
 
                     </div>
 
-                    <div className='text-white flex flex-col gap-1 '>
+                    <div className='text-white flex flex-col gap-1 justify-self-end md:justify-self-center '>
                         <h1 className='font-bold text-xl mb-2'>Pages</h1>
 
                         <ul>
@@ -71,7 +71,7 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <div className='text-white flex flex-col gap-1 '>
+                    <div className='text-white flex flex-col gap-1 mt-4 '>
                         <h1 className='font-bold text-xl mb-2'>Categories</h1>
 
                         <ul>
@@ -83,7 +83,7 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <div className='text-white flex flex-col gap-1 '>
+                    <div className='text-white flex flex-col gap-1 justify-self-end md:justify-self-center'>
                         <h1 className='text-white flex flex-col gap-1 w-1/4'>Contack</h1>
                         <p>+12345 678 910</p>
                         <p>+12345 678 109</p>
