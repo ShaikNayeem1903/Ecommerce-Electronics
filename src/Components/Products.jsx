@@ -15,7 +15,7 @@ function Products() {
        
     
 
-    let {cate,setCete,input,setInput,productTittles}=useContext(dataContext)
+    let {cate,setCete,input,setInput,productTittles,filter}=useContext(dataContext)
     
 
    
