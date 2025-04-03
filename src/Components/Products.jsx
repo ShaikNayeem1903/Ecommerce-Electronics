@@ -20,17 +20,7 @@ function Products() {
     let {cate,setCete,input,setInput,productTittles}=useContext(dataContext)
     
 
-    let filter=(cetegery)=>{
-        if(cetegery==="All"){
-            setCete(productsData)
-        }
-        else{
-         
-          let filtered=  productsData.filter((item)=>item.cetegery===cetegery)
-         setCete(filtered)
-         
-        }
-    }
+   
 
 
 
