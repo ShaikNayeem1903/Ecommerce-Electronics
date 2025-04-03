@@ -77,7 +77,7 @@ function Footer() {
                         <ul>
                             {
                                 productTittles.map((items) => (
-                                    <li key={items.id} className='cursor-pointer' onClick={() => filter(items)}>{items.name}</li>
+                                    <li key={items.id} className='cursor-pointer' onClick={() => filter(items.name)}>{items.name}</li>
                                 ))
                             }
                         </ul>
